@@ -1,0 +1,427 @@
+{
+  "form": {
+    "input": {
+      "textField": {
+        "locations": {
+          "header": "Objekte",
+          "label": "Objekt",
+          "placeHolder": "Objektnamen eingeben"
+        },
+        "name": {
+          "label": "Name",
+          "placeHolder": "Name eingeben"
+        },
+        "postalCode": {
+          "label": "Postleitzahl",
+          "placeHolder": "Postleitzahl eingeben."
+        },
+        "firstName": {
+          "label": "Vorname",
+          "placeHolder": "Vornamen eingeben"
+        },
+        "lastName": {
+          "label": "Nachname",
+          "placeHolder": "Nachnamen eingeben"
+        },
+        "phoneNumber": {
+          "label": "Telefon",
+          "placeHolder": "z. B. +00 856 3369"
+        },
+        "email": {
+          "label": "E-Mail",
+          "placeHolder": "E-Mail-Adresse eingeben"
+        },
+        "primaryEmail": {
+          "label": "Primäre Kunden-E-Mail",
+          "placeHolder": "Primäre E-Mail eingeben"
+        },
+        "owner": {
+          "label": "Eigentümer",
+          "info": "Info & Kontakt"
+        },
+        "country": {
+          "header": "Land / Region",
+          "label": "Land",
+          "placeHolder": "Land eingeben"
+        },
+        "address": {
+          "header": "Adresse",
+          "label": "Adresse",
+          "placeHolder": "Adresse eingeben"
+        },
+        "address2": {
+          "header": "Adresszeile 2",
+          "label": "Adresszeile 2",
+          "placeHolder": "Adresszeile 2 eingeben"
+        },
+        "state": {
+          "header": "Bundesland / Region",
+          "label": "Bundesland / Region",
+          "placeHolder": "Bundesland / Region eingeben"
+        },
+        "zipCode": {
+          "label": "Postleitzahl",
+          "placeHolder": "Postleitzahl eingeben"
+        },
+        "city": {
+          "label": "Stadt",
+          "placeHolder": "Stadt eingeben"
+        },
+        "additionalContacts": {
+          "header": "Zusätzliche Kontakte"
+        },
+        "markEmergencyContact": {
+          "label": "Als Notfallkontakt markieren"
+        },
+        "billableHours": {
+          "header": "Als Notfallkontakt markieren",
+          "label": "Abrechenbare Pausen"
+        },
+        "contact": {
+          "label": "Telefon",
+          "placeHolder": "Telefonnummer eingeben"
+        },
+        "selectOption": {
+          "label": "Option auswählen",
+          "placeholder": "Option auswählen"
+        },
+        "selectOptions": {
+          "label": "Optionen auswählen",
+          "placeHolder": "Optionen auswählen"
+        },
+        "search": {
+          "label": "Suchen",
+          "placeHolder": "Suchen..."
+        },
+        "geoFencing": {
+          "header": "Geofencing",
+          "setSame": {
+            "label": "Gleich wie Franchise-Grenze festlegen"
+          }
+        },
+        "zone": {
+          "label": "Zonenname",
+          "placeHolder": "Zonennamen eingeben"
+        },
+        "supervisor": {
+          "label": "Vorgesetzten auswählen",
+          "header": "Geofencing"
+        },
+        "vehicle": {
+          "info": "Fahrzeuginformationen"
+        },
+        "vehicleMakeInput": {
+          "label": "Marke / Modell / Baujahr",
+          "placeHolder": "Fahrzeugmarke, Modell und Baujahr eingeben"
+        },
+        "vehicleRegistrationNumber": {
+          "label": "Kennzeichen",
+          "placeHolder": "Kennzeichen eingeben"
+        },
+        "vehicleCreatedAt": {
+          "label": "Erstellt am",
+          "placeHolder": "Erstellungsdatum"
+        },
+        "vehicleLastMaintenance": {
+          "label": "Letzte Wartung",
+          "placeHolder": "Datum der letzten Wartung"
+        },
+        "password": {
+          "label": "Passwort",
+          "placeHolder": "Passwort eingeben"
+        },
+        "logType": {
+          "placeHolder": "z. B. Lebensmittelbehälter"
+        },
+        "officersCount": {
+          "label": "Anzahl der Einsatzkräfte",
+          "placeHolder": "Anzahl der Einsatzkräfte auswählen"
+        },
+        "reports": {
+          "label": "Berichtsvorlage",
+          "placeHolder": "Berichte"
+        },
+        "report": {
+          "label": "Berichtsvorlage",
+          "placeHolder": "Bericht"
+        },
+        "officerOptional": {
+          "label": "Einsatzkraft"
+        },
+        "officersHourlyRate": {
+          "placeHolder": "18 $–25 $"
+        },
+        "dutyTime": {
+          "label": "Einsatzdatum",
+          "placeHolder": "Einsatzdatum eingeben"
+        },
+        "startTime": {
+          "label": "Startzeit",
+          "placeholder": "Startzeit auswählen"
+        },
+        "endTime": {
+          "label": "Endzeit",
+          "placeholder": "Endzeit auswählen"
+        },
+        "instructions": {
+          "label": "Anweisungen eingeben",
+          "placeHolder": "Anweisungen hier eingeben"
+        },
+        "title": {
+          "label": "Post-Order-Titel eingeben",
+          "placeHolder": "Post-Order-Titel hinzufügen"
+        },
+        "exceptions": {
+          "label": "Post Order eingeben",
+          "placeHolder": "Klicken, um Post-Order-Anweisungen hinzuzufügen"
+        },
+        "startDate": {
+          "label": "Startdatum",
+          "placeholder": "Startdatum auswählen"
+        },
+        "endDate": {
+          "label": "Enddatum",
+          "placeholder": "Enddatum auswählen"
+        },
+        "cycleReferenceDate": {
+          "label": "Zyklus-Referenzdatum",
+          "placeHolder": "Zyklus-Referenzdatum auswählen"
+        }
+      },
+      "dropDown": {
+        "pleaseSelectAnOption": "Option auswählen",
+        "selectSite": {
+          "label": "Standort auswählen"
+        },
+        "selectSites": {
+          "label": "Alle Standorte"
+        },
+        "selectOfficer": {
+          "label": "Einsatzkraft auswählen"
+        },
+        "selectReport": {
+          "label": "Bericht auswählen"
+        },
+        "selectOfficersCount": {
+          "label": "Anzahl der Einsatzkräfte auswählen"
+        },
+        "selectSupervisor": {
+          "label": "Vorgesetzten auswählen"
+        },
+        "selectCountry": {
+          "label": "Land auswählen"
+        },
+        "selectStateRegion": {
+          "label": "Bundesland / Region auswählen"
+        },
+        "selectCity": {
+          "label": "Stadt auswählen"
+        },
+        "selectFranchise": {
+          "label": "Franchise auswählen"
+        },
+        "selectZones": {
+          "label": "Alle Zonen"
+        },
+        "selectDuties": {
+          "label": "Alle Einsätze"
+        },
+        "selectDevices": {
+          "label": "Alle Geräte"
+        },
+        "selectStates": {
+          "label": "Bundesländer auswählen"
+        },
+        "selectCities": {
+          "label": "Städte auswählen"
+        },
+        "selectStatus": {
+          "label": "Status auswählen"
+        },
+        "selectShift": {
+          "label": "Schicht auswählen"
+        },
+        "selectVisitors": {
+          "label": "Alle Status"
+        },
+        "selectVehicles": {
+          "label": "Alle Fahrzeuge"
+        },
+        "selectZone": {
+          "label": "Zone auswählen"
+        },
+        "checkInNotSelected": {
+          "label": "Check-in-Typ ist erforderlich"
+        }
+      }
+    }
+  },
+  "settings": {
+    "preferences": {
+      "title": "Einstellungen",
+      "visitorTypes": {
+        "settingTitle": "Besuchertypen",
+        "associatedSites": "Zugeordnete Standorte",
+        "addQuestions": "Fragen hinzufügen",
+        "fields": "Felder",
+        "addField": "+ Feld hinzufügen",
+        "addVisitorType": "Besuchertyp hinzufügen",
+        "updateVisitorType": "Besuchertyp aktualisieren",
+        "addLoadType": "Ladetyp hinzufügen",
+        "updateLoadType": "Ladetyp aktualisieren",
+        "visitorLog": "Besucherprotokoll-Name",
+        "loaderLog": "Ladeprotokoll-Name",
+        "export": "Exportieren",
+        "cancel": "Abbrechen"
+      },
+      "holidayGroups": {
+        "status": "Status",
+        "editGroup": "Gruppe bearbeiten",
+        "deleteGroup": "Gruppe löschen",
+        "title": "Feiertagsgruppen",
+        "subTitle": "Feiertagsgruppen für Multiplikatoren basierend auf Vertragsbedingungen",
+        "groupName": "Gruppenname",
+        "numberOfHolidays": "Anzahl der Feiertage",
+        "createdBy": "Erstellt von",
+        "createdOn": "Erstellt am",
+        "addNewGroup": "Neue Gruppe hinzufügen",
+        "createGroup": "Gruppe erstellen",
+        "updateGroup": "Gruppe aktualisieren",
+        "selectHolidays": "Feiertage auswählen",
+        "cancel": "Abbrechen",
+        "addGroupName": "Gruppenname hinzufügen",
+        "selectedHolidaysKey": "selectedHolidays",
+        "groupNameKey": "groupName",
+        "federalHolidays": "Gesetzliche Feiertage",
+        "federalHolidaysSubText": "Feiertagsgruppen sind Gruppen von Feiertagen für Tarifmultiplikatoren",
+        "deactivateGroup": "Gruppe deaktivieren",
+        "deactivateGroupSubText": "Möchtest du diese Feiertagsgruppe wirklich deaktivieren? Sie wird aus allen zugehörigen Verträgen entfernt. Diese Aktion kann nicht rückgängig gemacht werden.",
+        "deactivateGroupBtn": "Gruppe deaktivieren",
+        "searchGroup": "Gruppe suchen",
+        "nameKey": "name",
+        "add": "Hinzufügen",
+        "edit": "Bearbeiten",
+        "keys": {
+          "name": "name",
+          "groupName": "groupName",
+          "selectedHolidays": "selectedHolidays"
+        }
+      },
+      "loadTypes": {
+        "settingTitle": "Ladetypen"
+      },
+      "language": {
+        "settingTitle": "Sprache"
+      },
+      "thresholdValues": {
+        "settingTitle": "Schwellenwerte"
+      },
+      "notifications": {
+        "settingTitle": "Benachrichtigungen"
+      },
+      "breakRules": {
+        "settingTitle": "Pausenregeln"
+      },
+      "runsheetSettings": {
+        "settingTitle": "Runsheet-Einstellungen",
+        "runsheetHeading": "Runsheet-Vorgesetzte",
+        "runsheetDesc": "Lege fest, wer Runsheets verwalten darf.",
+        "supervisorName": "Name des Vorgesetzten",
+        "addedOn": "Hinzugefügt am",
+        "action": "Aktion",
+        "supervisor": "Vorgesetzter",
+        "addSupervisor": "Runsheet-Vorgesetzten hinzufügen",
+        "addSupervisorText": "Der hinzugefügte Vorgesetzte erhält ab heute Zugriff.",
+        "addSupervisorLabel": "Vorgesetzte auswählen",
+        "save": "Speichern",
+        "dropdownPlaceholder": "Vorgesetzten auswählen",
+        "errorMessage": "Bitte einen Vorgesetzten auswählen",
+        "deleteTitle": "Zugriff entfernen bestätigen!",
+        "deleteText": "Möchtest du den Zugriff wirklich entfernen? Dieser Vorgesetzte hat dann keinen Zugriff mehr auf Runsheets.",
+        "deleteConfirm": "Zugriff entfernen",
+        "deleteCancel": "Abbrechen",
+        "visitHeading": "Besuchskonfigurationen",
+        "visitDesc": "Definiere die Zeit, die bei Patrouillenbesuchen an jedem Standort verbracht wird.",
+        "visitEvent": "Ereignis",
+        "visitTime": "Zeit (Min.)",
+        "visitServiceTime": "Servicezeit",
+        "visitServiceTimeTooltip": "Die Servicezeit ist die Zeit, die während eines Treffers an einem Patrouillenstandort verbracht wird. Standardmäßig sind es 10 Minuten."
+      },
+      "systemDefault": {
+        "settingTitle": "Systemstandard"
+      },
+      "extraServicesCharges": {
+        "settingTitle": "Servicepreise"
+      },
+      "mappingPreferences": {
+        "title": "Einstellungen",
+        "locationsData": {
+          "settingTitle": "Objekte",
+          "tagLine": "Hier kannst du verschiedene HubSpot-Standortphasen zuordnen",
+          "table": {
+            "columnsHeader": {
+              "stages": "HubSpot-Phasen",
+              "mapTo": "Zuordnen zu"
+            }
+          }
+        },
+        "holidayGroup": {
+          "settingTitle": "Feiertagsgruppen",
+          "tagLine": "Feiertagsgruppen für Multiplikatoren basierend auf Vertragsbedingungen",
+          "table": {
+            "columnsHeader": {
+              "stages": "HubSpot-Phasen",
+              "mapTo": "Zuordnen zu"
+            }
+          }
+        },
+        "deals": {
+          "settingTitle": "Deals",
+          "tagLine": "Ordne hier verschiedene Deal-Phasen innerhalb von HubSpot-Pipelines zu",
+          "table": {
+            "columnsHeader": {
+              "pipeline": "Pipeline",
+              "noOfStages": "Anzahl der Phasen",
+              "assignedStages": "Zugeordnete Phasen",
+              "unassignedStages": "Nicht zugeordnete Phasen"
+            }
+          }
+        }
+      },
+      "invoiceSettings": {
+        "settingTitle": "Rechnungseinstellungen",
+        "invoiceSettingTitle": "Rechnungspositions-Konfiguration",
+        "invoiceSettingDesc": "Definiere Positionen, die Rechnungen hinzugefügt werden.",
+        "lineItemName": "Positionsname",
+        "lineItemNumber": "Positionsnummer",
+        "glGroup": "Sachkontengruppe",
+        "action": "Aktion",
+        "lineItemBtnText": "Neue Position",
+        "editLineItem": "Position bearbeiten",
+        "createLineItem": "Position hinzufügen",
+        "editLineItemDesc": "Positionsname oder Sachkontengruppe aktualisieren",
+        "createLineItemDesc": "Neue Rechnungsposition hinzufügen",
+        "lineItem": "Position",
+        "textFieldPlaceholder": "z. B. Geräteprüfbericht",
+        "dropdownPlaceholder": "Sachkontengruppe auswählen",
+        "update": "Aktualisieren",
+        "create": "Hinzufügen"
+      }
+    },
+    "reportTemplates": {
+      "title": "Berichtsvorlagen"
+    },
+    "activityLog": {
+      "title": "Aktivitätsprotokoll"
+    },
+    "stateRules": {
+      "title": "Bundesland-Regeln"
+    },
+    "skillsDesignations": {
+      "title": "Fähigkeiten & Bezeichnungen"
+    }
+  },
+  "buttons": {
+    "clickToUpload": "Klicken zum Hochladen"
+  }
+}

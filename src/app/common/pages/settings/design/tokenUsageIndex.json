@@ -1,0 +1,818 @@
+{
+  "semantic-text::textprimary": {
+    "tokenName": "textPrimary",
+    "defaultHex": "#262527",
+    "paletteRefs": 1422,
+    "hexRefs": 149,
+    "fileCount": 341,
+    "totalRefs": 1571
+  },
+  "semantic-text::textsecondary1": {
+    "tokenName": "textSecondary1",
+    "defaultHex": "#444446",
+    "paletteRefs": 370,
+    "hexRefs": 24,
+    "fileCount": 129,
+    "totalRefs": 394
+  },
+  "semantic-text::textsecondary2": {
+    "tokenName": "textSecondary2",
+    "defaultHex": "#5B5B5F",
+    "paletteRefs": 196,
+    "hexRefs": 61,
+    "fileCount": 107,
+    "totalRefs": 257
+  },
+  "semantic-text::textsecondary3": {
+    "tokenName": "textSecondary3",
+    "defaultHex": "#86868B",
+    "paletteRefs": 410,
+    "hexRefs": 79,
+    "fileCount": 170,
+    "totalRefs": 489
+  },
+  "semantic-text::textplaceholder": {
+    "tokenName": "textPlaceholder",
+    "defaultHex": "#6A6A70",
+    "paletteRefs": 772,
+    "hexRefs": 217,
+    "fileCount": 351,
+    "totalRefs": 989
+  },
+  "semantic-text::textplaceholderfield": {
+    "tokenName": "textPlaceholderField",
+    "defaultHex": "#CCCCCC",
+    "paletteRefs": 126,
+    "hexRefs": 6,
+    "fileCount": 47,
+    "totalRefs": 132
+  },
+  "semantic-text::textdisabled": {
+    "tokenName": "textDisabled",
+    "defaultHex": "#AEAEB2",
+    "paletteRefs": 104,
+    "hexRefs": 57,
+    "fileCount": 63,
+    "totalRefs": 161
+  },
+  "semantic-text::textoncolor": {
+    "tokenName": "textOnColor",
+    "defaultHex": "#FFFFFF",
+    "paletteRefs": 340,
+    "hexRefs": 61,
+    "fileCount": 104,
+    "totalRefs": 401
+  },
+  "semantic-text::textbrand": {
+    "tokenName": "textBrand",
+    "defaultHex": "#146DFF",
+    "paletteRefs": 438,
+    "hexRefs": 572,
+    "fileCount": 301,
+    "totalRefs": 1010
+  },
+  "semantic-text::textbrandhover": {
+    "tokenName": "textBrandHover",
+    "defaultHex": "#0059FF",
+    "paletteRefs": 10,
+    "hexRefs": 50,
+    "fileCount": 33,
+    "totalRefs": 60
+  },
+  "semantic-text::textbranddisabled": {
+    "tokenName": "textBrandDisabled",
+    "defaultHex": "#A9DEFF",
+    "paletteRefs": 40,
+    "hexRefs": 73,
+    "fileCount": 56,
+    "totalRefs": 113
+  },
+  "semantic-text::textalert": {
+    "tokenName": "textAlert",
+    "defaultHex": "#B32318",
+    "paletteRefs": 170,
+    "hexRefs": 70,
+    "fileCount": 125,
+    "totalRefs": 240
+  },
+  "semantic-text::textalerdisabled": {
+    "tokenName": "textAlerDisabled",
+    "defaultHex": "#FECDCA",
+    "paletteRefs": 0,
+    "hexRefs": 33,
+    "fileCount": 21,
+    "totalRefs": 33
+  },
+  "semantic-text::textsuccess": {
+    "tokenName": "textSuccess",
+    "defaultHex": "#2E964B",
+    "paletteRefs": 48,
+    "hexRefs": 45,
+    "fileCount": 42,
+    "totalRefs": 93
+  },
+  "semantic-text::textwarning": {
+    "tokenName": "textWarning",
+    "defaultHex": "#F19F02",
+    "paletteRefs": 22,
+    "hexRefs": 4,
+    "fileCount": 12,
+    "totalRefs": 26
+  },
+  "semantic-border::bordersubtle1": {
+    "tokenName": "borderSubtle1",
+    "defaultHex": "#E6E6E7",
+    "paletteRefs": 1470,
+    "hexRefs": 359,
+    "fileCount": 349,
+    "totalRefs": 1829
+  },
+  "semantic-border::bordersubtle2": {
+    "tokenName": "borderSubtle2",
+    "defaultHex": "#D0CFD2",
+    "paletteRefs": 80,
+    "hexRefs": 50,
+    "fileCount": 58,
+    "totalRefs": 130
+  },
+  "semantic-border::borderstrong1": {
+    "tokenName": "borderStrong1",
+    "defaultHex": "#AEAEB2",
+    "paletteRefs": 54,
+    "hexRefs": 57,
+    "fileCount": 46,
+    "totalRefs": 111
+  },
+  "semantic-border::borderstrong2": {
+    "tokenName": "borderStrong2",
+    "defaultHex": "#6A6A70",
+    "paletteRefs": 2,
+    "hexRefs": 217,
+    "fileCount": 145,
+    "totalRefs": 219
+  },
+  "semantic-border::borderbrand": {
+    "tokenName": "borderBrand",
+    "defaultHex": "#146DFF",
+    "paletteRefs": 172,
+    "hexRefs": 572,
+    "fileCount": 226,
+    "totalRefs": 744
+  },
+  "semantic-border::borderwarning": {
+    "tokenName": "borderWarning",
+    "defaultHex": "#F19F02",
+    "paletteRefs": 8,
+    "hexRefs": 4,
+    "fileCount": 4,
+    "totalRefs": 12
+  },
+  "semantic-border::bordersuccess": {
+    "tokenName": "borderSuccess",
+    "defaultHex": "#2E964B",
+    "paletteRefs": 4,
+    "hexRefs": 45,
+    "fileCount": 25,
+    "totalRefs": 49
+  },
+  "semantic-border::borderalert": {
+    "tokenName": "borderAlert",
+    "defaultHex": "#E43F32",
+    "paletteRefs": 50,
+    "hexRefs": 78,
+    "fileCount": 72,
+    "totalRefs": 128
+  },
+  "semantic-border::borderpurple": {
+    "tokenName": "borderPurple",
+    "defaultHex": "#9747FF",
+    "paletteRefs": 8,
+    "hexRefs": 25,
+    "fileCount": 25,
+    "totalRefs": 33
+  },
+  "semantic-border::borderalerthover": {
+    "tokenName": "borderAlertHover",
+    "defaultHex": "#B32318",
+    "paletteRefs": 4,
+    "hexRefs": 70,
+    "fileCount": 56,
+    "totalRefs": 74
+  },
+  "semantic-border::borderalertdisabled": {
+    "tokenName": "borderAlertDisabled",
+    "defaultHex": "#FECDCA",
+    "paletteRefs": 2,
+    "hexRefs": 33,
+    "fileCount": 22,
+    "totalRefs": 35
+  },
+  "semantic-border::borderbranddisabled": {
+    "tokenName": "borderBrandDisabled",
+    "defaultHex": "#A9DEFF",
+    "paletteRefs": 22,
+    "hexRefs": 73,
+    "fileCount": 52,
+    "totalRefs": 95
+  },
+  "semantic-surface::surfacewhite": {
+    "tokenName": "surfaceWhite",
+    "defaultHex": "#FFFFFF",
+    "paletteRefs": 748,
+    "hexRefs": 61,
+    "fileCount": 194,
+    "totalRefs": 809
+  },
+  "semantic-surface::surfacegreysubtle": {
+    "tokenName": "surfaceGreySubtle",
+    "defaultHex": "#F5F5F6",
+    "paletteRefs": 426,
+    "hexRefs": 131,
+    "fileCount": 202,
+    "totalRefs": 557
+  },
+  "semantic-surface::surfacegreylight": {
+    "tokenName": "surfaceGreyLight",
+    "defaultHex": "#F6F6F6",
+    "paletteRefs": 34,
+    "hexRefs": 2,
+    "fileCount": 16,
+    "totalRefs": 36
+  },
+  "semantic-surface::surfacegreystrong1": {
+    "tokenName": "surfaceGreyStrong1",
+    "defaultHex": "#6A6A70",
+    "paletteRefs": 62,
+    "hexRefs": 217,
+    "fileCount": 167,
+    "totalRefs": 279
+  },
+  "semantic-surface::surfacegreydisabled": {
+    "tokenName": "surfaceGreyDisabled",
+    "defaultHex": "#AEAEB2",
+    "paletteRefs": 0,
+    "hexRefs": 57,
+    "fileCount": 28,
+    "totalRefs": 57
+  },
+  "semantic-surface::surfacegreystrong2": {
+    "tokenName": "surfaceGreyStrong2",
+    "defaultHex": "#262527",
+    "paletteRefs": 6,
+    "hexRefs": 149,
+    "fileCount": 96,
+    "totalRefs": 155
+  },
+  "semantic-surface::surfacealertsubtle": {
+    "tokenName": "surfaceAlertSubtle",
+    "defaultHex": "#FBEEED",
+    "paletteRefs": 110,
+    "hexRefs": 39,
+    "fileCount": 58,
+    "totalRefs": 149
+  },
+  "semantic-surface::surfacealertstrong": {
+    "tokenName": "surfaceAlertStrong",
+    "defaultHex": "#E43F32",
+    "paletteRefs": 94,
+    "hexRefs": 78,
+    "fileCount": 98,
+    "totalRefs": 172
+  },
+  "semantic-surface::surfacealertdisabled": {
+    "tokenName": "surfaceAlertDisabled",
+    "defaultHex": "#FECDCA",
+    "paletteRefs": 8,
+    "hexRefs": 33,
+    "fileCount": 25,
+    "totalRefs": 41
+  },
+  "semantic-surface::surfacealerthover": {
+    "tokenName": "surfaceAlertHover",
+    "defaultHex": "#B32318",
+    "paletteRefs": 24,
+    "hexRefs": 70,
+    "fileCount": 63,
+    "totalRefs": 94
+  },
+  "semantic-surface::surfacesuccesssubtle": {
+    "tokenName": "surfaceSuccessSubtle",
+    "defaultHex": "#EFF8EF",
+    "paletteRefs": 34,
+    "hexRefs": 36,
+    "fileCount": 45,
+    "totalRefs": 70
+  },
+  "semantic-surface::surfacesuccessstrong": {
+    "tokenName": "surfaceSuccessStrong",
+    "defaultHex": "#31A150",
+    "paletteRefs": 26,
+    "hexRefs": 36,
+    "fileCount": 34,
+    "totalRefs": 62
+  },
+  "semantic-surface::surfacesuccessactive": {
+    "tokenName": "surfaceSuccessActive",
+    "defaultHex": "#2DA551",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "semantic-surface::surfacewarningsubtle": {
+    "tokenName": "surfaceWarningSubtle",
+    "defaultHex": "#FEF0C7",
+    "paletteRefs": 6,
+    "hexRefs": 32,
+    "fileCount": 33,
+    "totalRefs": 38
+  },
+  "semantic-surface::surfacewarningstrong": {
+    "tokenName": "surfaceWarningStrong",
+    "defaultHex": "#FFAC0D",
+    "paletteRefs": 14,
+    "hexRefs": 5,
+    "fileCount": 10,
+    "totalRefs": 19
+  },
+  "semantic-surface::surfacebrandsubtle": {
+    "tokenName": "surfaceBrandSubtle",
+    "defaultHex": "#E5F6FF",
+    "paletteRefs": 136,
+    "hexRefs": 97,
+    "fileCount": 121,
+    "totalRefs": 233
+  },
+  "semantic-surface::surfacebrand": {
+    "tokenName": "surfaceBrand",
+    "defaultHex": "#146DFF",
+    "paletteRefs": 450,
+    "hexRefs": 572,
+    "fileCount": 281,
+    "totalRefs": 1022
+  },
+  "semantic-surface::surfacebranddisabled": {
+    "tokenName": "surfaceBrandDisabled",
+    "defaultHex": "#A9DEFF",
+    "paletteRefs": 28,
+    "hexRefs": 73,
+    "fileCount": 48,
+    "totalRefs": 101
+  },
+  "semantic-surface::surfacebrandhover": {
+    "tokenName": "surfaceBrandHover",
+    "defaultHex": "#0059FF",
+    "paletteRefs": 44,
+    "hexRefs": 50,
+    "fileCount": 47,
+    "totalRefs": 94
+  },
+  "scss-blue::blue-50": {
+    "tokenName": "$blue-50",
+    "defaultHex": "#E5F6FF",
+    "paletteRefs": 0,
+    "hexRefs": 97,
+    "fileCount": 76,
+    "totalRefs": 97
+  },
+  "scss-blue::blue-100": {
+    "tokenName": "$blue-100",
+    "defaultHex": "#CFEFFF",
+    "paletteRefs": 0,
+    "hexRefs": 17,
+    "fileCount": 15,
+    "totalRefs": 17
+  },
+  "scss-blue::blue-200": {
+    "tokenName": "$blue-200",
+    "defaultHex": "#A9DEFF",
+    "paletteRefs": 0,
+    "hexRefs": 73,
+    "fileCount": 41,
+    "totalRefs": 73
+  },
+  "scss-blue::blue-300": {
+    "tokenName": "$blue-300",
+    "defaultHex": "#75C4FF",
+    "paletteRefs": 0,
+    "hexRefs": 26,
+    "fileCount": 12,
+    "totalRefs": 26
+  },
+  "scss-blue::blue-400": {
+    "tokenName": "$blue-400",
+    "defaultHex": "#3F99FF",
+    "paletteRefs": 0,
+    "hexRefs": 25,
+    "fileCount": 22,
+    "totalRefs": 25
+  },
+  "scss-blue::blue-500": {
+    "tokenName": "$blue-500",
+    "defaultHex": "#146DFF",
+    "paletteRefs": 0,
+    "hexRefs": 572,
+    "fileCount": 192,
+    "totalRefs": 572
+  },
+  "scss-blue::blue-600": {
+    "tokenName": "$blue-600",
+    "defaultHex": "#0058FF",
+    "paletteRefs": 0,
+    "hexRefs": 10,
+    "fileCount": 10,
+    "totalRefs": 10
+  },
+  "scss-blue::blue-700": {
+    "tokenName": "$blue-700",
+    "defaultHex": "#0059FF",
+    "paletteRefs": 0,
+    "hexRefs": 50,
+    "fileCount": 29,
+    "totalRefs": 50
+  },
+  "scss-blue::blue-800": {
+    "tokenName": "$blue-800",
+    "defaultHex": "#004FE3",
+    "paletteRefs": 0,
+    "hexRefs": 5,
+    "fileCount": 5,
+    "totalRefs": 5
+  },
+  "scss-blue::blue-900": {
+    "tokenName": "$blue-900",
+    "defaultHex": "#0032A0",
+    "paletteRefs": 0,
+    "hexRefs": 36,
+    "fileCount": 12,
+    "totalRefs": 36
+  },
+  "scss-blue::blue-950": {
+    "tokenName": "$blue-950",
+    "defaultHex": "#001D66",
+    "paletteRefs": 0,
+    "hexRefs": 5,
+    "fileCount": 4,
+    "totalRefs": 5
+  },
+  "scss-blue::light-blue-700": {
+    "tokenName": "$light-blue-700",
+    "defaultHex": "#0369A1",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-orange::orange-50": {
+    "tokenName": "$orange-50",
+    "defaultHex": "#FFF7ED",
+    "paletteRefs": 0,
+    "hexRefs": 6,
+    "fileCount": 6,
+    "totalRefs": 6
+  },
+  "scss-orange::orange-100": {
+    "tokenName": "$orange-100",
+    "defaultHex": "#FFEED4",
+    "paletteRefs": 0,
+    "hexRefs": 16,
+    "fileCount": 13,
+    "totalRefs": 16
+  },
+  "scss-orange::orange-200": {
+    "tokenName": "$orange-200",
+    "defaultHex": "#FFD9A8",
+    "paletteRefs": 0,
+    "hexRefs": 5,
+    "fileCount": 4,
+    "totalRefs": 5
+  },
+  "scss-orange::orange-300": {
+    "tokenName": "$orange-300",
+    "defaultHex": "#FFBD71",
+    "paletteRefs": 0,
+    "hexRefs": 10,
+    "fileCount": 4,
+    "totalRefs": 10
+  },
+  "scss-orange::orange-400": {
+    "tokenName": "$orange-400",
+    "defaultHex": "#FF9332",
+    "paletteRefs": 0,
+    "hexRefs": 71,
+    "fileCount": 14,
+    "totalRefs": 71
+  },
+  "scss-orange::orange-500": {
+    "tokenName": "$orange-500",
+    "defaultHex": "#FE7711",
+    "paletteRefs": 0,
+    "hexRefs": 6,
+    "fileCount": 5,
+    "totalRefs": 6
+  },
+  "scss-orange::orange-600": {
+    "tokenName": "$orange-600",
+    "defaultHex": "#EF5C07",
+    "paletteRefs": 0,
+    "hexRefs": 7,
+    "fileCount": 7,
+    "totalRefs": 7
+  },
+  "scss-orange::orange-700": {
+    "tokenName": "$orange-700",
+    "defaultHex": "#C64308",
+    "paletteRefs": 0,
+    "hexRefs": 6,
+    "fileCount": 5,
+    "totalRefs": 6
+  },
+  "scss-orange::orange-800": {
+    "tokenName": "$orange-800",
+    "defaultHex": "#9D360F",
+    "paletteRefs": 0,
+    "hexRefs": 3,
+    "fileCount": 3,
+    "totalRefs": 3
+  },
+  "scss-orange::orange-900": {
+    "tokenName": "$orange-900",
+    "defaultHex": "#7E2F10",
+    "paletteRefs": 0,
+    "hexRefs": 3,
+    "fileCount": 3,
+    "totalRefs": 3
+  },
+  "scss-orange::orange-950": {
+    "tokenName": "$orange-950",
+    "defaultHex": "#441406",
+    "paletteRefs": 0,
+    "hexRefs": 3,
+    "fileCount": 3,
+    "totalRefs": 3
+  },
+  "scss-grey::white": {
+    "tokenName": "$white",
+    "defaultHex": "#FFFFFF",
+    "paletteRefs": 0,
+    "hexRefs": 61,
+    "fileCount": 26,
+    "totalRefs": 61
+  },
+  "scss-grey::black": {
+    "tokenName": "$black",
+    "defaultHex": "#000000",
+    "paletteRefs": 0,
+    "hexRefs": 25,
+    "fileCount": 19,
+    "totalRefs": 25
+  },
+  "scss-grey::grey-50": {
+    "tokenName": "$grey-50",
+    "defaultHex": "#F5F5F6",
+    "paletteRefs": 0,
+    "hexRefs": 131,
+    "fileCount": 78,
+    "totalRefs": 131
+  },
+  "scss-grey::grey-100": {
+    "tokenName": "$grey-100",
+    "defaultHex": "#E6E6E7",
+    "paletteRefs": 0,
+    "hexRefs": 359,
+    "fileCount": 83,
+    "totalRefs": 359
+  },
+  "scss-grey::grey-200": {
+    "tokenName": "$grey-200",
+    "defaultHex": "#D0CFD2",
+    "paletteRefs": 0,
+    "hexRefs": 50,
+    "fileCount": 31,
+    "totalRefs": 50
+  },
+  "scss-grey::grey-300": {
+    "tokenName": "$grey-300",
+    "defaultHex": "#AEAEB2",
+    "paletteRefs": 0,
+    "hexRefs": 57,
+    "fileCount": 28,
+    "totalRefs": 57
+  },
+  "scss-grey::grey-400": {
+    "tokenName": "$grey-400",
+    "defaultHex": "#86868B",
+    "paletteRefs": 0,
+    "hexRefs": 79,
+    "fileCount": 56,
+    "totalRefs": 79
+  },
+  "scss-grey::grey-500": {
+    "tokenName": "$grey-500",
+    "defaultHex": "#6A6A70",
+    "paletteRefs": 0,
+    "hexRefs": 217,
+    "fileCount": 144,
+    "totalRefs": 217
+  },
+  "scss-grey::grey-600": {
+    "tokenName": "$grey-600",
+    "defaultHex": "#5B5B5F",
+    "paletteRefs": 0,
+    "hexRefs": 61,
+    "fileCount": 46,
+    "totalRefs": 61
+  },
+  "scss-grey::grey-700": {
+    "tokenName": "$grey-700",
+    "defaultHex": "#4D4D51",
+    "paletteRefs": 0,
+    "hexRefs": 16,
+    "fileCount": 13,
+    "totalRefs": 16
+  },
+  "scss-grey::grey-800": {
+    "tokenName": "$grey-800",
+    "defaultHex": "#444446",
+    "paletteRefs": 0,
+    "hexRefs": 24,
+    "fileCount": 20,
+    "totalRefs": 24
+  },
+  "scss-grey::grey-900": {
+    "tokenName": "$grey-900",
+    "defaultHex": "#3C3C3D",
+    "paletteRefs": 0,
+    "hexRefs": 21,
+    "fileCount": 13,
+    "totalRefs": 21
+  },
+  "scss-grey::grey-950": {
+    "tokenName": "$grey-950",
+    "defaultHex": "#262527",
+    "paletteRefs": 0,
+    "hexRefs": 149,
+    "fileCount": 95,
+    "totalRefs": 149
+  },
+  "scss-yellow::yellow-100": {
+    "tokenName": "$yellow-100",
+    "defaultHex": "#FEF7ED",
+    "paletteRefs": 0,
+    "hexRefs": 7,
+    "fileCount": 5,
+    "totalRefs": 7
+  },
+  "scss-yellow::yellow-200": {
+    "tokenName": "$yellow-200",
+    "defaultHex": "#FCEFDC",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-yellow::yellow-300": {
+    "tokenName": "$yellow-300",
+    "defaultHex": "#F9DEB8",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-yellow::yellow-400": {
+    "tokenName": "$yellow-400",
+    "defaultHex": "#F6CE95",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-yellow::yellow-500": {
+    "tokenName": "$yellow-500",
+    "defaultHex": "#FFBA57",
+    "paletteRefs": 0,
+    "hexRefs": 3,
+    "fileCount": 3,
+    "totalRefs": 3
+  },
+  "scss-success::success-100": {
+    "tokenName": "$success-100",
+    "defaultHex": "#EFF8EF",
+    "paletteRefs": 0,
+    "hexRefs": 36,
+    "fileCount": 29,
+    "totalRefs": 36
+  },
+  "scss-success::success-200": {
+    "tokenName": "$success-200",
+    "defaultHex": "#DEF1DE",
+    "paletteRefs": 0,
+    "hexRefs": 11,
+    "fileCount": 8,
+    "totalRefs": 11
+  },
+  "scss-success::success-300": {
+    "tokenName": "$success-300",
+    "defaultHex": "#BEE3BE",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-success::success-400": {
+    "tokenName": "$success-400",
+    "defaultHex": "#9DD49D",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-success::success-500": {
+    "tokenName": "$success-500",
+    "defaultHex": "#5CB85C",
+    "paletteRefs": 0,
+    "hexRefs": 15,
+    "fileCount": 10,
+    "totalRefs": 15
+  },
+  "scss-alert::alert-100": {
+    "tokenName": "$alert-100",
+    "defaultHex": "#FBEEED",
+    "paletteRefs": 0,
+    "hexRefs": 39,
+    "fileCount": 28,
+    "totalRefs": 39
+  },
+  "scss-alert::alert-200": {
+    "tokenName": "$alert-200",
+    "defaultHex": "#F7DDDC",
+    "paletteRefs": 0,
+    "hexRefs": 6,
+    "fileCount": 4,
+    "totalRefs": 6
+  },
+  "scss-alert::alert-300": {
+    "tokenName": "$alert-300",
+    "defaultHex": "#F0BAB9",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-alert::alert-400": {
+    "tokenName": "$alert-400",
+    "defaultHex": "#E89895",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-alert::alert-500": {
+    "tokenName": "$alert-500",
+    "defaultHex": "#D9534F",
+    "paletteRefs": 0,
+    "hexRefs": 37,
+    "fileCount": 21,
+    "totalRefs": 37
+  },
+  "scss-assign::assign-100": {
+    "tokenName": "$assign-100",
+    "defaultHex": "#F6ECFE",
+    "paletteRefs": 0,
+    "hexRefs": 12,
+    "fileCount": 11,
+    "totalRefs": 12
+  },
+  "scss-assign::assign-200": {
+    "tokenName": "$assign-200",
+    "defaultHex": "#ECD9FD",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-assign::assign-300": {
+    "tokenName": "$assign-300",
+    "defaultHex": "#D9B3FB",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-assign::assign-400": {
+    "tokenName": "$assign-400",
+    "defaultHex": "#C78EF9",
+    "paletteRefs": 0,
+    "hexRefs": 2,
+    "fileCount": 2,
+    "totalRefs": 2
+  },
+  "scss-assign::assign-500": {
+    "tokenName": "$assign-500",
+    "defaultHex": "#A142F5",
+    "paletteRefs": 0,
+    "hexRefs": 15,
+    "fileCount": 12,
+    "totalRefs": 15
+  }
+}

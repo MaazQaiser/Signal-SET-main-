@@ -1,0 +1,109 @@
+{
+  "templates": {
+    "staticFields": {
+      "visitor": {
+        "visitorLabel": "Besucher Check-In/Check-Out",
+        "firstLabel": "Besucher Check-In",
+        "secondInputLabel": "Besucher Check-Out",
+        "checkIn": "Besucher Check-In",
+        "checkOut": "Besucher Check-Out",
+        "changeableValueCriteria": "visitorsCheckOut"
+      },
+      "loads": {
+        "loadsLabel": "Ladungen Check-In/Check-Out",
+        "firstLabel": "Ladungen Check-In",
+        "secondInputLabel": "Ladungen Check-Out",
+        "checkIn": "Ladungen Check-In",
+        "checkOut": "Ladungen Check-Out",
+        "changeableValueCriteria": "loadsCheckOut"
+      }
+    },
+    "listing": {
+      "columns": {
+        "title": "Bericht",
+        "createdOn": "Erstellt am",
+        "templateType": "Vorlagentyp",
+        "actions": "Aktionen"
+      },
+      "actions": {
+        "edit": "Bearbeiten",
+        "replace": "Berichtsvorlage ersetzen",
+        "delete": "Löschen"
+      }
+    },
+    "create": {
+      "addReportTemplate": "Berichtsvorlage hinzufügen",
+      "report": {
+        "title": "Berichtstitel",
+        "type": "Berichtstyp",
+        "titlePlaceholder": "Titel der Berichtsvorlage (z. B. Ausrüstungsinspektionsbericht)",
+        "description": "Berichtsbeschreibung",
+        "descriptionPlaceholder": "Zusätzliche Beschreibung (optional)",
+        "dropdown": {
+          "equipmentInspection": "Ausrüstungsinspektion",
+          "vehicleInspection": "Fahrzeuginspektion",
+          "tourReports": "Tourenberichte",
+          "shiftDayEndReport": "Schichtende-Bericht",
+          "incidentReport": "Vorfallsbericht"
+        }
+      },
+      "section": {
+        "title": "Abschnittstitel",
+        "titlePlaceholder": "Abschnittstitel (z. B. Sicherheitsprotokolle und -merkmale)",
+        "description": "Abschnittsbeschreibung",
+        "descriptionPlaceholder": "Zusätzliche Beschreibung (optional)",
+        "field": {
+          "title": "Frageformulierung",
+          "titlePlaceholder": "Frageformulierung (z. B. Funktioniert der Not-Aus-Mechanismus korrekt?)",
+          "description": "Fragebeschreibung",
+          "descriptionPlaceholder": "Anweisungen (optional)",
+          "answerType": "Antworttyp",
+          "responseType": {
+            "text": "Text",
+            "number": "Nummer",
+            "dateTime": "Datum & Uhrzeit",
+            "radio": "Radio-Buttons (Einzelauswahl)",
+            "multiselect": "Mehrfachauswahl",
+            "imageVideo": "Bild/Video",
+            "date": "Datum",
+            "time": "Zeit",
+            "dropdown": "Dropdown",
+            "webCam": "Webcam-Bild",
+            "phoneNumber": "Telefonnummer",
+            "description": "Beschreibungsfeld"
+          },
+          "option": {
+            "placeholder": "Optionen-Beschriftung"
+          }
+        }
+      },
+      "btn": {
+        "back": "Zurück",
+        "save": "Speichern",
+        "cancel": "Abbrechen",
+        "addQuestion": "Frage hinzufügen",
+        "addSection": "Abschnitt hinzufügen",
+        "delete": "Löschen",
+        "newOption": "Option hinzufügen"
+      },
+      "checkbox": {
+        "required": "Erforderlich"
+      }
+    },
+    "delete": {
+      "title": "Bericht löschen!",
+      "description": "Sind Sie sicher, dass Sie diesen Bericht löschen möchten?",
+      "deleteButtonText": "Bericht löschen",
+      "cancelButtonText": "Abbrechen"
+    },
+    "replace": {
+      "title": "Berichtsvorlage ersetzen",
+      "bothDescription": "Wählen Sie einen Standort und eine Berichtsvorlage zum Ersetzen aus für",
+      "description": "Wählen Sie einen Standort aus, für den die Vorlage ersetzt werden soll",
+      "siteDropdownLabel": "Standort auswählen",
+      "reportDropdownLabel": "Wählen Sie eine Berichtsvorlage aus",
+      "replaceButtonText": "Berichtsvorlage ersetzen",
+      "cancelButtonText": "Abbrechen"
+    }
+  }
+}
