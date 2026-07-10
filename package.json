@@ -2,6 +2,9 @@
   "name": "signal",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.1",
     "@ckeditor/ckeditor5-basic-styles": "^39.0.2",
@@ -57,7 +60,6 @@
     "i18next-http-backend": "^2.2.1",
     "joi": "^17.9.2",
     "lottie-react": "^2.4.1",
-    "node-sass": "^9.0.0",
     "prop-types": "^15.8.1",
     "query-string": "^8.1.0",
     "react": "^18.3.1",
