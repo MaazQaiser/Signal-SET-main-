@@ -1733,14 +1733,15 @@ export const sortObjectByKey = (obj, sortPriority = null) => {
   return obj;
 };
 
+const FALLBACK_TENANT = 'Team-Signal';
+
+const matchesConfiguredDomain = (hostname, configuredDomain) =>
+  hostname === configuredDomain || hostname.endsWith(`.${configuredDomain}`);
+
 const resolveTenantByHostname = (hostname) => {
-  const tenant = Object.entries(MULTI_TENANT_AUTH).find(([_, tenant]) =>
-    tenant.domains.includes(hostname),
+  return Object.entries(MULTI_TENANT_AUTH).find(([_, tenant]) =>
+    tenant?.domains?.some((domain) => matchesConfiguredDomain(hostname, domain)),
   )?.[0];
-
-  console.log(tenant);
-
-  return tenant;
 };
 
 export const mainDomain = () => {
@@ -1755,17 +1756,19 @@ export const mainDomain = () => {
 
   // Handle localhost like "abc.localhost"
   if (hostname.includes('localhost') && parts.length > 1) {
-    return parts[0];
+    return parts[0] || FALLBACK_TENANT;
   }
 
   // 2. Default behavior:
   // Return the last two segments (e.g., filter-go.com)
   if (parts.length >= 2) {
-    return resolveTenantByHostname(parts.slice(-2).join('.'));
+    const rootHost = parts.slice(-2).join('.');
+    const resolvedTenant = resolveTenantByHostname(hostname) || resolveTenantByHostname(rootHost);
+    if (resolvedTenant) return resolvedTenant;
   }
 
   // 3. Fallback for weird cases
-  return hostname;
+  return FALLBACK_TENANT;
 };
 
 export const getRegionFromDomain = () => {
