@@ -44,7 +44,6 @@ const PatrolVisits = ({
   days,
   enableOccurences,
   products,
-  selectedPanType,
   isPublished,
   onFieldInteraction,
 }) => {
@@ -514,7 +513,6 @@ PatrolVisits.propTypes = {
   days: PropTypes.any,
   enableOccurences: PropTypes.bool,
   products: PropTypes.array,
-  selectedPanType: PropTypes.object,
   isPublished: PropTypes.bool,
   onFieldInteraction: PropTypes.func,
 };

@@ -393,7 +393,13 @@ const ContractCreation = ({
       services: servicesForCalculations,
       onDemandServices: onDemandServicesData,
     });
-  }, [paymentTermsData, onDemandServicesData, formDataServices?.services, data?._demoFormServices, data?.services]);
+  }, [
+    paymentTermsData,
+    onDemandServicesData,
+    formDataServices?.services,
+    data?._demoFormServices,
+    data?.services,
+  ]);
 
   const billingCycles = useMemo(() => getBillingCycles(t), [t]);
 
@@ -465,13 +471,10 @@ const ContractCreation = ({
       if (response.statusCode === 200 && response?.data?.attachment) {
         openPreviewDialog(response.data.attachment);
       } else if (response.statusCode === 200) {
-        toast.info(
-          'Proposal preview is being prepared. Please try again in a moment.',
-          {
-            position: 'top-right',
-            autoClose: toastSettings.AUTO_CLOSE,
-          },
-        );
+        toast.info('Proposal preview is being prepared. Please try again in a moment.', {
+          position: 'top-right',
+          autoClose: toastSettings.AUTO_CLOSE,
+        });
       }
     } catch (error) {
       const message =

@@ -656,24 +656,26 @@ const DealContract = ({
               </Typography>
             </Box>
             <RenderIfHasPermission name={ACL_DEAL_CONTRACTS_UPDATE}>
-              {canPublishContract && !isTerminated && dealStage?.value !== stageValues.CLOSED_LOST && (
-                <>
-                  <Box className={classes.signButtons}>
-                    {/*<Button*/}
-                    {/*  variant="primary"*/}
-                    {/*  onClick={() => handleOpenPublishModal(ContractActions.PUBLISH_WITH_SIGN)}*/}
-                    {/*>*/}
-                    {/*  {t('sales.contract.publishWithSign')}*/}
-                    {/*</Button>*/}
-                    <Button
-                      variant="primary"
-                      onClick={() => handleOpenPublishModal(ContractActions.PUBLISH_WITHOUT_SIGN)}
-                    >
-                      {t('sales.contract.publishContract')}
-                    </Button>
-                  </Box>
-                </>
-              )}
+              {canPublishContract &&
+                !isTerminated &&
+                dealStage?.value !== stageValues.CLOSED_LOST && (
+                  <>
+                    <Box className={classes.signButtons}>
+                      {/*<Button*/}
+                      {/*  variant="primary"*/}
+                      {/*  onClick={() => handleOpenPublishModal(ContractActions.PUBLISH_WITH_SIGN)}*/}
+                      {/*>*/}
+                      {/*  {t('sales.contract.publishWithSign')}*/}
+                      {/*</Button>*/}
+                      <Button
+                        variant="primary"
+                        onClick={() => handleOpenPublishModal(ContractActions.PUBLISH_WITHOUT_SIGN)}
+                      >
+                        {t('sales.contract.publishContract')}
+                      </Button>
+                    </Box>
+                  </>
+                )}
             </RenderIfHasPermission>
           </Box>
 

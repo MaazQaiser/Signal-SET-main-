@@ -540,46 +540,6 @@ const ContractChatAgent = ({
     setIsExpanded(false);
   };
 
-  const handleRestart = useCallback(() => {
-    try {
-      speechRecognitionRef.current?.stop();
-    } catch {
-      // no-op
-    }
-    const initialContext = getInitialContext();
-    if (franchisePreferences?.devices) {
-      initialContext.deviceList = buildDeviceListFromPreferences(franchisePreferences);
-    }
-    initialContext.lineItems = lineItems || [];
-    initialContext.holidayGroups = holidayGroups || [];
-    initialContext.billingContact = data?.billingContact || null;
-    initialContext.contractStartDate = data?.details?.startDate || null;
-    initialContext.currentUser = currentUser || null;
-
-    contextRef.current = initialContext;
-    const initialCollected = getInitialCollected();
-    collectedRef.current = initialCollected;
-    setCollected(initialCollected);
-    setMessages([]);
-    setCurrentNodeId(getInitialNodeId());
-    setInputValue('');
-    setCustomChoiceValue('');
-    setSelectedDays([]);
-    setFieldError('');
-    setIsSubmitting(false);
-    setIsAgentTyping(false);
-    setIsListening(false);
-    setIsComplete(false);
-    setInitialized(false);
-  }, [
-    franchisePreferences,
-    lineItems,
-    holidayGroups,
-    currentUser,
-    data?.billingContact,
-    data?.details?.startDate,
-  ]);
-
   const handleCompleteStageChat = async (text) => {
     const trimmed = String(text || '').trim();
     if (!trimmed || isSubmitting || isAgentTyping) return;
@@ -588,7 +548,7 @@ const ContractChatAgent = ({
     setIsAgentTyping(true);
     await wait(getUserReadDelay(trimmed));
     pushAgentMessage(
-      "Got it. I noted that message. You can continue chatting here, or use the actions below any time.",
+      'Got it. I noted that message. You can continue chatting here, or use the actions below any time.',
     );
     setIsAgentTyping(false);
   };
@@ -922,7 +882,11 @@ const ContractChatAgent = ({
       );
     }
 
-    if (!currentNode || currentNode.inputType === 'none' || currentNode.inputType === 'plan_summary') {
+    if (
+      !currentNode ||
+      currentNode.inputType === 'none' ||
+      currentNode.inputType === 'plan_summary'
+    ) {
       return null;
     }
 
@@ -1113,85 +1077,81 @@ const ContractChatAgent = ({
 
   return (
     <>
-      <Box
-        className={classes.backdrop}
-        onClick={handleClose}
-        aria-hidden="true"
-      />
+      <Box className={classes.backdrop} onClick={handleClose} aria-hidden="true" />
       <Box className={classes.floatingRoot}>
         <Box className={classes.chatPanel} role="dialog" aria-labelledby="contract-assistant-title">
-        <Box className={classes.header}>
-          <Typography
-            variant="subtitle1"
-            className={classes.headerTitle}
-            id="contract-assistant-title"
-          >
-            Contract Assistant
-          </Typography>
-          <IconButton
-            className={classes.closeButton}
-            onClick={handleClose}
-            size="small"
-            aria-label="Close contract assistant"
-          >
-            <Typography component="span" className={classes.headerGlyph}>
-              ×
+          <Box className={classes.header}>
+            <Typography
+              variant="subtitle1"
+              className={classes.headerTitle}
+              id="contract-assistant-title"
+            >
+              Contract Assistant
             </Typography>
-          </IconButton>
-        </Box>
+            <IconButton
+              className={classes.closeButton}
+              onClick={handleClose}
+              size="small"
+              aria-label="Close contract assistant"
+            >
+              <Typography component="span" className={classes.headerGlyph}>
+                ×
+              </Typography>
+            </IconButton>
+          </Box>
 
-        <Box className={classes.messageList} ref={messageListRef}>
-          {messages.map((msg, index) =>
-            msg.from === 'agent' ? (
-              <Box key={index} className={classes.agentRow}>
-                {AssistantAvatar ? (
-                  <AssistantAvatar className={classes.agentAvatar} />
-                ) : (
-                  <Box className={classes.fallbackAgentAvatar} />
-                )}
-                <Box className={classes.agentBubble}>
-                  {msg.type === 'plan' ? (
-                    renderPlanSummary(msg.plan)
-                  ) : msg.type === 'complete_actions' ? (
-                    <>
+          <Box className={classes.messageList} ref={messageListRef}>
+            {messages.map((msg, index) =>
+              msg.from === 'agent' ? (
+                <Box key={index} className={classes.agentRow}>
+                  {AssistantAvatar ? (
+                    <AssistantAvatar className={classes.agentAvatar} />
+                  ) : (
+                    <Box className={classes.fallbackAgentAvatar} />
+                  )}
+                  <Box className={classes.agentBubble}>
+                    {msg.type === 'plan' ? (
+                      renderPlanSummary(msg.plan)
+                    ) : msg.type === 'complete_actions' ? (
+                      <>
+                        <Typography variant="body2" className={classes.agentText}>
+                          {msg.text}
+                        </Typography>
+                        {renderCompleteActions()}
+                      </>
+                    ) : (
                       <Typography variant="body2" className={classes.agentText}>
                         {msg.text}
                       </Typography>
-                      {renderCompleteActions()}
-                    </>
-                  ) : (
-                    <Typography variant="body2" className={classes.agentText}>
-                      {msg.text}
-                    </Typography>
-                  )}
+                    )}
+                  </Box>
                 </Box>
-              </Box>
-            ) : (
-              <Box key={index} className={classes.userBubble}>
-                <Typography variant="body2">{msg.text}</Typography>
-              </Box>
-            ),
-          )}
-          {(isAgentTyping || isSubmitting) && renderTypingIndicator()}
-        </Box>
+              ) : (
+                <Box key={index} className={classes.userBubble}>
+                  <Typography variant="body2">{msg.text}</Typography>
+                </Box>
+              ),
+            )}
+            {(isAgentTyping || isSubmitting) && renderTypingIndicator()}
+          </Box>
 
-        <Box className={classes.inputRow}>
-          {fieldError && <SafeFieldError error={fieldError} />}
-          {currentNode?.skippable && (
-            <Button
-              variant="text"
-              size="small"
-              className={classes.skipButton}
-              onClick={handleSkipStep}
-              disabled={isInteractionLocked}
-            >
-              Skip this step
-            </Button>
-          )}
-          {renderInput()}
+          <Box className={classes.inputRow}>
+            {fieldError && <SafeFieldError error={fieldError} />}
+            {currentNode?.skippable && (
+              <Button
+                variant="text"
+                size="small"
+                className={classes.skipButton}
+                onClick={handleSkipStep}
+                disabled={isInteractionLocked}
+              >
+                Skip this step
+              </Button>
+            )}
+            {renderInput()}
+          </Box>
         </Box>
       </Box>
-    </Box>
     </>
   );
 };

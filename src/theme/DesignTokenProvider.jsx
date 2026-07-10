@@ -1,5 +1,4 @@
 import { ThemeProvider } from '@mui/material';
-import { createTheme } from '@mui/material/styles';
 import PropTypes from 'prop-types';
 import React, { createContext, useCallback, useContext, useMemo, useState } from 'react';
 

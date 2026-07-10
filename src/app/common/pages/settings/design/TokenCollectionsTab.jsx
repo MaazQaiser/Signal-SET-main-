@@ -165,6 +165,41 @@ const TokenTableRow = ({
   );
 };
 
+TokenTableRow.propTypes = {
+  token: PropTypes.shape({
+    id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+    name: PropTypes.string.isRequired,
+    isCustom: PropTypes.bool,
+  }).isRequired,
+  groupId: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+  hex: PropTypes.string.isRequired,
+  defaultHex: PropTypes.string.isRequired,
+  appliedHex: PropTypes.string.isRequired,
+  classes: PropTypes.shape({
+    row: PropTypes.string,
+    colSwatch: PropTypes.string,
+    swatch: PropTypes.string,
+    nameField: PropTypes.string,
+    valueCell: PropTypes.string,
+    colorPicker: PropTypes.string,
+    hexField: PropTypes.string,
+    hexFieldInvalid: PropTypes.string,
+    rowActions: PropTypes.string,
+    applyBtn: PropTypes.string,
+    actionBtn: PropTypes.string,
+    impactRow: PropTypes.string,
+    impactBox: PropTypes.string,
+    impactTitle: PropTypes.string,
+    impactDetail: PropTypes.string,
+  }).isRequired,
+  onHexChange: PropTypes.func.isRequired,
+  onPickerChange: PropTypes.func.isRequired,
+  onNameChange: PropTypes.func.isRequired,
+  onReset: PropTypes.func.isRequired,
+  onRemove: PropTypes.func.isRequired,
+  onApply: PropTypes.func.isRequired,
+};
+
 const TokenCollectionsTab = ({ classes, search }) => {
   const { paletteOverrides, applyPaletteTokens, removePaletteTokens, resetAllOverrides } =
     useDesignTokens();
