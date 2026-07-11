@@ -11,5 +11,18 @@ const ENV_CONFIG_MAP = {
   production: prodTenants,
 };
 
+const resolveTenantEnvironment = () => {
+  const explicitEnv = process.env.REACT_APP_NODE_ENV;
+  if (explicitEnv && ENV_CONFIG_MAP[explicitEnv]) {
+    return explicitEnv;
+  }
+
+  if (process.env.NODE_ENV === 'production') {
+    return 'production';
+  }
+
+  return explicitEnv || process.env.NODE_ENV || 'development';
+};
+
 export const MULTI_TENANT_CONFIGURATIONS =
-  ENV_CONFIG_MAP[process.env.REACT_APP_NODE_ENV] || devTenants;
+  ENV_CONFIG_MAP[resolveTenantEnvironment()] || prodTenants;
